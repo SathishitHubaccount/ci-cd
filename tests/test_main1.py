@@ -1,9 +1,14 @@
-from src.main import add ,sub
+from src.main import anagram,length,nothing
 
-def test_add():
-    assert add(2,3)==5
-    assert add(0,0)==0
-    assert add(0,1000)==1000
-    assert sub(10,100)==90
-    assert sub(0,100)==100
+
+def test_anagram():
+    assert anagram("ab","ba")==True
+    assert anagram("abc","bca")==True
+    assert anagram("asb","bsssa")==False
+    assert anagram("jhdihdihiod","jiidsdoao")==False
+    assert anagram("Hi","")==False
+
+def test_nothing():
+    assert nothing()==None
+
     
