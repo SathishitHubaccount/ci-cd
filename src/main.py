@@ -50,3 +50,4 @@ def length(nums):
 def nothing():
     return None
 
+print(anagram("anana","hdnksdn"))
