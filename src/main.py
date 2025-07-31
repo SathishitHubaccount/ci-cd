@@ -40,7 +40,7 @@ def anagram(s,t):
     return True
 
 
-
+import math
 def length(nums):
     c=0
     for i in nums:
@@ -50,4 +50,44 @@ def length(nums):
 def nothing():
     return None
 
-print(anagram("anana","hdnksdn"))
+def add(a,b):
+    temp=a+b
+    return temp if temp==a+b else a+b
+
+def sub(a,b):
+    temp=a-b
+    return abs(a-b)
+
+def mul(a,b):
+    if a==0 or b==0:
+        return 0
+    return a*b
+def div(a,b):
+    if b==0:
+        return None
+    if a==0:
+        return 0
+    return a/b
+
+def percentage(cur,tot):
+    return int((cur/tot)*100)
+
+def power(a,b):
+    if b==0:
+        return 1
+    return a**b
+
+def pi():
+    return math.pi
+
+def squar_root(a):
+    return a**.5
+
+def fact(a):
+    if a<2:
+        return 1
+    tot=1
+    for i in range(2,a+1):
+        tot*=i
+    return tot
+           
