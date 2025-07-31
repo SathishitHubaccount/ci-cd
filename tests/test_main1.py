@@ -11,13 +11,7 @@ def test_anagram():
 def test_nothing():
     assert nothing()==None
 
-    
-def test_random():
-    assert random.randint(0,10000)==random.randint(0,10000)
-    assert random.randint(0,10000)==random.randint(0,10000)
-    assert random.randint(0,10000)==random.randint(0,10000)
-    assert random.randint(0,10000)==random.randint(0,10000)
-        
+  
 
 def test_add():
     assert add(0,1)==1
