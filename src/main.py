@@ -70,7 +70,7 @@ def div(a,b):
     return a/b
 
 def percentage(cur,tot):
-    return int((cur/tot)*100)
+    retrun (cur/tot)*100
 
 def power(a,b):
     if b==0:
